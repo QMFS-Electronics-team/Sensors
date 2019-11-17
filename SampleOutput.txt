@@ -1,0 +1,8 @@
+MPU6050 connection successful.
+aX =  0.4 g, 
+aY = -0.0 g, 
+aZ =  0.9 g, 
+gX =   -2.1 °/s, 
+gY =   -0.2 °/s, 
+gZ =   -0.7 °/s, 
+T =  27.5 °C

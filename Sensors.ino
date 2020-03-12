@@ -1,7 +1,6 @@
 // By Bhargav Maniar 2019 
 // Using I2C - Inter integrated circuit
 
-
 #include <Wire.h>
 #include <I2Cdev.h>
 #include <MPU6050.h>
@@ -11,7 +10,6 @@ MPU6050 mpu6050; // The device
 int16_t axisX, axisY, axisZ;
 int16_t gyroAxisX, gyroAxisY, gyroAxisZ;
 int16_t temperature; 
-
 
 char buffer[10]; // output stream buffer
 
@@ -30,9 +28,6 @@ void loop() {
   temperature = mpu6050.getTemperature(); // Get the temperature value
   printValues();  // Print data in correct format
   delay(1000); // 1 Second delay
-  
-
-
 }
 
 void printValues()
